@@ -1,0 +1,104 @@
+section{
+    margin-bottom: 100px;
+}
+.bg-light {
+    background-color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 20px;
+}
+#home_section{
+    height: 700px;
+    background-image: url(images/bg-2.png);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+.btn_buy_now{
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding:10px 20px;
+    border: none;
+}
+.carousel-item{
+    background-image: url(images/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding:70px 30px;
+} 
+.carousel-indicators li {
+    background-color:yellow;
+    height:10px;
+    width: 15px;
+    border-radius: 50%;
+    opacity: 1;
+}
+.carousel-indicators .active{
+    background-image: linear-gradient(to right,orange 0%,yellow 100%);
+    height:10px;
+    width: 30px;
+    border-radius:45%;
+    opacity: 1;
+}
+.product_heading{
+    margin-top: 70px;
+}
+.product_heading h6{
+    color: #ffa500;
+}
+.card-deck{
+    margin-top: 20px;
+}
+.card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px lightgray;
+    padding: 30px 20px;
+
+}
+.card-body{
+    text-align: center;
+}
+.card-title{
+    color: #292929;
+    font-weight: 600;
+}
+.card-text{
+    color: #7E7E7E;
+}
+.price{
+    color: #1F1F1F;
+    font-weight: 600;
+}
+.card-footer {
+    background-color:#fff;
+    border-top:none;
+}
+.card-footer .btn_buy_now{
+    margin-bottom: 30px;
+}
+.catagories_title{
+    font-size: 36px;
+    color: #1F1F1F;
+    text-align: center;
+    
+}
+.title_underline{
+    width: 200px;
+    height:8px;
+    background-image: linear-gradient(to right,yellow 0%, orange 100%);
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+.catagories_pale_order img{
+    width: 100%;
+}
+.catagories_images{
+    box-shadow: 3px 3px 10px gray;
+} 
+.beauty_image{
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
